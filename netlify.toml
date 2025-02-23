@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.processing]
+  post_build = "cp src/img/icons.svg dist/icons.c5b0f01c.svg"
