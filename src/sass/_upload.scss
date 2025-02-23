@@ -1,3 +1,5 @@
+@use 'base';
+
 .add-recipe-window {
   position: fixed;
   top: 50%;
@@ -67,13 +69,13 @@
       transition: all 0.2s;
 
       &::placeholder {
-        color: $color-grey-light-3;
+        color: base.$color-grey-light-3;
       }
 
       &:focus {
         outline: none;
-        border: 1px solid $color-primary;
-        background-color: $color-grey-light-1;
+        border: 1px solid base.$color-primary;
+        background-color: base.$color-grey-light-1;
       }
     }
 

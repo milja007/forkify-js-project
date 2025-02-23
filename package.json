@@ -2,22 +2,22 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
+  "type": "module",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist "
   },
   "author": "Borna Miljković",
   "license": "ISC",
   "devDependencies": {
-    "@babel/preset-env": "^7.26.7",
     "@parcel/transformer-sass": "^2.13.3",
-    "core-js": "^3.40.0",
     "parcel": "^2.13.3",
     "svgo": "^3.3.2"
   },
   "dependencies": {
-    "fractional": "^1.0.0",
+    "core-js": "^3.40.0",
+    "fracty": "^1.0.12",
     "regenerator-runtime": "^0.14.1",
-    "sass": "^1.83.4"
+    "sass": "^1.85.0"
   }
 }

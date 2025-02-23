@@ -1,4 +1,3 @@
-import icons from 'url:../../img/icons.svg';
 import View from './View';
 import previewView from './previewView.js';
 class BookMarksView extends View {
