@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist "
+    "build": "parcel build index.html --dist-dir ./dist --public-url ./",
+    "postbuild": "cp src/img/icons.svg dist/icons.c5b0f01c.svg"
   },
   "author": "Borna Miljković",
   "license": "ISC",
